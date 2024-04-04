@@ -1,5 +1,6 @@
 package com.example.tiffany
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -39,6 +40,7 @@ class AssignmentActivity : ComponentActivity() {
         }
     }
 }
+@SuppressLint("SuspiciousIndentation")
 @Preview(showBackground = true)
 @Composable
 fun assign() {

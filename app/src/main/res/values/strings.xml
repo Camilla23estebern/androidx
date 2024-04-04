@@ -6,4 +6,6 @@
     <string name="title_activity_input">InputActivity</string>
     <string name="title_activity_assignment">AssignmentActivity</string>
     <string name="title_activity_test2">TestActivity2</string>
+    <string name="title_activity_picha">PichaActivity</string>
+    <string name="title_activity_web">WebActivity</string>
 </resources>

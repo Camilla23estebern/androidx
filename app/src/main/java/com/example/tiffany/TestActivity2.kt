@@ -245,6 +245,9 @@ fun travel() {
                     Text(text = "View all",
                         color = Color.Blue                        )
                 }
+                Row {
+                    
+                }
 
 
 

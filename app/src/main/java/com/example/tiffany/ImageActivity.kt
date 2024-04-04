@@ -17,6 +17,7 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.example.tiffany.ui.theme.TiffanyTheme
 
 class ImageActivity : ComponentActivity() {
@@ -49,6 +50,12 @@ fun  Images() {
             colorFilter = ColorFilter.tint(Color.Magenta)
         )
         Text(text = "Click here")
+
+
+        AsyncImage(
+            model = "https://assets.vogue.com/photos/660dbf54d98aad88cdd24e39/1:1/w_1280%2Cc_limit/1059157466",
+            contentDescription = null,
+        )
 
 
 

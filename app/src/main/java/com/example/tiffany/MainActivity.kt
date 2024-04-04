@@ -100,11 +100,22 @@ fun Tuesday() {
        Text(text = "input",
        modifier = Modifier
            .clickable {
-               inp.startActivity(Intent(inp, TestActivity2::class.java))
+               inp.startActivity(Intent(inp, PichaActivity::class.java))
            }
 
+       )
+
+       val ff = LocalContext.current
+       Text(text = "click here",
+           modifier = Modifier
+               .clickable {
+                   inp.startActivity(Intent(inp, WebActivity::class.java))
+               }
 
        )
+
+
+
 
 
        }
